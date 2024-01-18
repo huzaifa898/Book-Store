@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
-    <div  style={{borderbottom:"1px solid white"}}>
+    <div  style={{borderBottom:"1px solid white"}}>
       <nav className="navbar navbar-expand-lg bg-dark">
   <div className="container">
     <a className="navbar-brand text-white" href="#">Book Store</a>

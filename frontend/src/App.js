@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from './pages/Home';
 import Books from './pages/Books';
 import AddBooks from './pages/AddBooks';
+import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,6 +18,7 @@ function App() {
         <Route  path="/books" element={<Books/>}/>
         <Route  path="/addBooks" element={<AddBooks/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 }
