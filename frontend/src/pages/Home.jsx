@@ -15,7 +15,7 @@ const Home = () => {
     <div className="col-lg-6 d-flex justify-content-center align-items-end flex-column"
          style={{ height: "91.5vh" }}
          >
-        <img className='img-fluid honeimg'  src='https://morganhuntereducation.com/wp-content/uploads/2017/09/iStock-623666368.jpg'/>
+        <img className='img-fluid honeimg'  src='https://morganhuntereducation.com/wp-content/uploads/2017/09/iStock-623666368.jpg' alt='/'/>
     </div>
     </div>
     </div>
