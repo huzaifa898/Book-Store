@@ -8,15 +8,15 @@ const Home = () => {
     <div className="col-lg-6 d-flex justify-content-center align-items-start flex-column"
          style={{ height: "91.5vh" }}
          > 
-          <h2 style={{ fontSize: "80px" }}>BOOK STORE </h2>
-          <h2  style={{ fontSize: "50px" }}>FOR YOU</h2>
-          <p className='mb-0' style={{ color: "silver" }} >CheckOut The Books From Here</p>
-          <Link to="/books" className='Book'>View Book</Link>
+          <h2 style={{ fontSize: "80px", color:"red" }}>BOOK STORE </h2>
+          <h2  style={{ fontSize: "50px ", color:"yellow" }}>FOR YOU</h2>
+          <p className='mb-0' style={{ color: "silver", fontSize:"20px" }} >CheckOut The Books From Here</p>
+          <Link to="/books" className='Book' style={{border:"1px solid white ", borderRadius:"5px"}}>View Book</Link>
     </div>
     <div className="col-lg-6 d-flex justify-content-center align-items-end flex-column"
          style={{ height: "91.5vh" }}
          >
-        <img className='img-fluid honeimg'  src='https://morganhuntereducation.com/wp-content/uploads/2017/09/iStock-623666368.jpg' alt='/'/>
+        <img  className='img-fluid honeimg'  src='https://img.freepik.com/free-photo/portrait-young-plus-size-woman-enjoying-free-time-reading-book-while-standing-against-yellow-space-lifestyle-concept_58466-12001.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1698796800&semt=ais' alt='/'/>
     </div>
     </div>
     </div>
