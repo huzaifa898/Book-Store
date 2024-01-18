@@ -11,7 +11,7 @@ const Home = () => {
           <h2 style={{ fontSize: "80px" }}>BOOK STORE </h2>
           <h2  style={{ fontSize: "50px" }}>FOR YOU</h2>
           <p className='mb-0' style={{ color: "silver" }} >CheckOut The Books From Here</p>
-          <Link to="/books" className='VeiwBook'>View Book</Link>
+          <Link to="/books" className='Book'>View Book</Link>
     </div>
     <div className="col-lg-6 d-flex justify-content-center align-items-end flex-column"
          style={{ height: "91.5vh" }}

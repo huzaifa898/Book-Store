@@ -3,8 +3,7 @@
    min-height: 91.5vh;
    max-height: auto;
 }
-.VeiwBook{
-    outline: none;
+.Book{
     border: 2px soild white;
     padding: 5px 20px 5px 20px;
     color: white;

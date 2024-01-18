@@ -5,7 +5,7 @@ const Navbar = () => {
     <div  style={{borderBottom:"1px solid white"}}>
       <nav className="navbar navbar-expand-lg bg-dark">
   <div className="container">
-    <a className="navbar-brand text-white" href="#">Book Store</a>
+    <a className="navbar-brand text-white" href="#">BOOK STORE</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -15,10 +15,10 @@ const Navbar = () => {
           HOME
         </Link>
         <Link className="nav-item nav-link text-white active" to="/books">
-          Books
+          BOOKS
         </Link>
         <Link className="nav-item nav-link text-white active" to="/addBooks">
-          AddBooks
+          ADDBOOKS
         </Link>
       </ul>
     </div>
